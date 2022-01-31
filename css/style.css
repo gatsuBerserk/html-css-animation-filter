@@ -27,15 +27,25 @@
 
 
 
-
-
-
-
 .ex-3-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background: red;  
+    transition: 2s;
+
+}  
+
+.ex-3-square:hover{
+    border-radius: 100%;
 }
+
+
+
+
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
