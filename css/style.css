@@ -1,3 +1,4 @@
+
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -11,17 +12,25 @@
 
 
 
-
-
-
-
-
-
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    cursor: pointer; 
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}  
+
+.ex-2-square:active{ 
+    
+    width: 100%; 
 }
+
+
+
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
