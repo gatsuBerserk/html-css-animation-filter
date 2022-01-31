@@ -41,16 +41,20 @@
 
 
 
-
-
-
-
-
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background: red;  
+    opacity: 1;
+    transition: opacity 1s;
+} 
+
+.ex-4-square:hover{
+    opacity: 0.01;
 }
+
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
